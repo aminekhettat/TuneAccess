@@ -53,7 +53,7 @@ void setup() {
   i2s_start(I2SR);
 
   // Ouvrir le fichier
-  File f = SPIFFS.open("/audio1.raw", "r");
+  File f = SPIFFS.open("/audio1.wav", "r");
   if(!f){
     Serial.println("Fichier introuvable !");
     return;

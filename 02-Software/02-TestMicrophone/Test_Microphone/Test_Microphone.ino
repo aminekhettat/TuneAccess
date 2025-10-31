@@ -11,7 +11,7 @@
 #define I2SR (i2s_port_t) 1
 #define BLOCK_SIZE 1024 // Taille de buffer plus grande pour enregistrer
 #define RECORD_TIME 5       // secondes
-#define FILE_NAME "/audio1.raw"  // fichier de sortie sur SPIFFS
+#define FILE_NAME "/audio1.wav"  // fichier de sortie sur SPIFFS
 
 
 const uint16_t PixelCount = 1;
