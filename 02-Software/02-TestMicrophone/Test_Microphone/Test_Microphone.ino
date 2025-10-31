@@ -11,7 +11,7 @@
 #define I2SR (i2s_port_t) 1
 #define BLOCK_SIZE 1024 // Taille de buffer plus grande pour enregistrer
 #define RECORD_TIME 5       // secondes
-#define FILE_NAME "/audio1.raw"  // fichier de sortie sur SPIFFS
+#define FILE_NAME "/audio1.wav"  // fichier de sortie sur SPIFFS
 
 
 const uint16_t PixelCount = 1;
@@ -38,10 +38,6 @@ i2s_pin_config_t pin_configR = {
   .data_out_num = I2S_PIN_NO_CHANGE,
   .data_in_num = 35
 };
-
-//void record() {
-//
-//}
 
 
 void setup() {
