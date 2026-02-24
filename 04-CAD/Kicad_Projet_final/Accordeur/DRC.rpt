@@ -1,0 +1,68 @@
+** Drc report for Accordeur.kicad_pcb **
+** Created on 2026-02-09T06:18:24+0100 **
+
+** Found 17 DRC violations **
+[annular_width]: Largeur des anneaux (configuration des contraintes du PCB largeur d'anneau min 0,1000 mm; réelle 0,0850 mm)
+    Règle: configuration des contraintes du PCB; error
+    @(158,7500 mm, 101,2050 mm): Pad métallisé 1 [LEDR_INSTRU] de L_INST1
+[annular_width]: Largeur des anneaux (configuration des contraintes du PCB largeur d'anneau min 0,1000 mm; réelle 0,0850 mm)
+    Règle: configuration des contraintes du PCB; error
+    @(158,7500 mm, 99,9350 mm): Pad métallisé 2 [LEDG_INSTRU] de L_INST1
+[annular_width]: Largeur des anneaux (configuration des contraintes du PCB largeur d'anneau min 0,1000 mm; réelle 0,0850 mm)
+    Règle: configuration des contraintes du PCB; error
+    @(158,7500 mm, 98,6650 mm): Pad métallisé 3 [LEDB_INSTRU] de L_INST1
+[annular_width]: Largeur des anneaux (configuration des contraintes du PCB largeur d'anneau min 0,1000 mm; réelle 0,0850 mm)
+    Règle: configuration des contraintes du PCB; error
+    @(158,7500 mm, 97,3950 mm): Pad métallisé 4 [GND] de L_INST1
+[annular_width]: Largeur des anneaux (configuration des contraintes du PCB largeur d'anneau min 0,1000 mm; réelle 0,0850 mm)
+    Règle: configuration des contraintes du PCB; error
+    @(151,5000 mm, 101,2050 mm): Pad métallisé 1 [LEDR_BAT] de LBATE
+[annular_width]: Largeur des anneaux (configuration des contraintes du PCB largeur d'anneau min 0,1000 mm; réelle 0,0850 mm)
+    Règle: configuration des contraintes du PCB; error
+    @(151,5000 mm, 99,9350 mm): Pad métallisé 2 [LEDG_BAT] de LBATE
+[annular_width]: Largeur des anneaux (configuration des contraintes du PCB largeur d'anneau min 0,1000 mm; réelle 0,0850 mm)
+    Règle: configuration des contraintes du PCB; error
+    @(151,5000 mm, 98,6650 mm): Pad métallisé 3 [LEDB_BAT] de LBATE
+[annular_width]: Largeur des anneaux (configuration des contraintes du PCB largeur d'anneau min 0,1000 mm; réelle 0,0850 mm)
+    Règle: configuration des contraintes du PCB; error
+    @(151,5000 mm, 97,3950 mm): Pad métallisé 4 [GND] de LBATE
+[drill_out_of_range]: Taille du trou en dehors de la plage (configuration des contraintes du PCB trou min 0,3000 mm ; réel 0,2000 mm)
+    Règle: configuration des contraintes du PCB; error
+    @(136,2500 mm, 75,5000 mm): Pad métallisé 11 [GND] de U2
+[drill_out_of_range]: Taille du trou en dehors de la plage (configuration des contraintes du PCB trou min 0,3000 mm ; réel 0,2000 mm)
+    Règle: configuration des contraintes du PCB; error
+    @(135,2500 mm, 75,5000 mm): Pad métallisé 11 [GND] de U2
+[starved_thermal]: Connexion de frein thermique à la zone incomplète (couche B.Cu ; 2 rayons connectés à des ilots isolés)
+    Forçage local; error
+    @(185,0000 mm, 69,0000 mm): Zone [GND] sur B.Cu, priorité 1
+    @(172,8650 mm, 72,1100 mm): Pad métallisé 1 [GND] de J3
+[starved_thermal]: Connexion de frein thermique à la zone incomplète (couche B.Cu ; zone nbre min de rayons 2 ; réel 1)
+    Forçage local; error
+    @(185,0000 mm, 69,0000 mm): Zone [GND] sur B.Cu, priorité 1
+    @(176,5100 mm, 85,5000 mm): Pad 2 [GND] de R20 sur B.Cu
+[solder_mask_bridge]: L’ouverture du masque de soudure de dessus relie des éléments de différents nets
+    Règle: configuration largeur min masque de soudure; error
+    @(141,0000 mm, 65,5000 mm): Pad 9 [GND] de U3 sur F.Cu
+    @(141,9850 mm, 64,7500 mm): Pad 8 [SDA] de U3 sur F.Cu
+[solder_mask_bridge]: L’ouverture du masque de soudure de dessus relie des éléments de différents nets
+    Règle: configuration largeur min masque de soudure; error
+    @(141,0000 mm, 65,5000 mm): Pad 9 [GND] de U3 sur F.Cu
+    @(141,9850 mm, 65,2500 mm): Pad 7 [SCL] de U3 sur F.Cu
+[solder_mask_bridge]: L’ouverture du masque de soudure de dessus relie des éléments de différents nets
+    Règle: configuration largeur min masque de soudure; error
+    @(141,0000 mm, 65,5000 mm): Pad 9 [GND] de U3 sur F.Cu
+    @(140,0150 mm, 65,7500 mm): Pad 3 [/Circuit_batterie/BAT] de U3 sur F.Cu
+[solder_mask_bridge]: L’ouverture du masque de soudure de dessus relie des éléments de différents nets
+    Règle: configuration largeur min masque de soudure; error
+    @(141,0000 mm, 65,5000 mm): Pad 9 [GND] de U3 sur F.Cu
+    @(140,0150 mm, 65,2500 mm): Pad 2 [/Circuit_batterie/BAT] de U3 sur F.Cu
+[solder_mask_bridge]: L’ouverture du masque de soudure de dessus relie des éléments de différents nets
+    Règle: configuration largeur min masque de soudure; error
+    @(141,0000 mm, 65,5000 mm): Pad 9 [GND] de U3 sur F.Cu
+    @(141,9850 mm, 66,2500 mm): Pad 5 [unconnected-(U3-~{ALERT}-Pad5)] de U3 sur F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

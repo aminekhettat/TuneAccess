@@ -1,0 +1,1 @@
+Update symbol J1 from 'Connector_Generic:Conn_02x14_Counter_Clockwise' to 'Connector_Generic:Conn_02x14_Counter_Clockwise': OK

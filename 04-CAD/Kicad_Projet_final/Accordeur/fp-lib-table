@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TPS63802DLAR")(type "KiCad")(uri "C:/Users/Wilfried/Desktop/Manuelle/Kicad_Projet/TPS63802DLAR")(options "")(descr ""))
+  (lib (name "BQ25185DLHR")(type "KiCad")(uri "C:/Users/Wilfried/Desktop/Manuelle/Kicad_Projet/BQ25185DLHR")(options "")(descr ""))
+  (lib (name "LF33CV")(type "KiCad")(uri "C:/Users/Wilfried/Desktop/Manuelle/Kicad_Projet/LF33CV")(options "")(descr ""))
+  (lib (name "MAX17048G_T10")(type "KiCad")(uri "C:/Users/Wilfried/Desktop/Manuelle/Kicad_Projet/MAX17048G_T10")(options "")(descr ""))
+  (lib (name "CUSTOM_LOGOS")(type "KiCad")(uri "C:/Users/Wilfried/Desktop/Manuelle/Kicad_Projet/CUSTOM_LOGOS")(options "")(descr ""))
+)
