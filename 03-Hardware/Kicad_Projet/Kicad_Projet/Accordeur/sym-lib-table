@@ -1,6 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "BQ25185DLHR")(type "KiCad")(uri "C:/Users/Wilfried/Desktop/Manuelle/Kicad_Projet/BQ25185DLHR/BQ25185DLHR.kicad_sym")(options "")(descr ""))
-  (lib (name "MAX17048G_T10")(type "KiCad")(uri "C:/Users/Wilfried/Desktop/Manuelle/Kicad_Projet/MAX17048G_T10/MAX17048G_T10.kicad_sym")(options "")(descr ""))
-  (lib (name "LF33CV")(type "KiCad")(uri "C:/Users/Wilfried/Desktop/Manuelle/Kicad_Projet/LF33CV/LF33CV.kicad_sym")(options "")(descr ""))
-)
